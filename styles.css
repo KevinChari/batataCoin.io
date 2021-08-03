@@ -1,0 +1,31 @@
+
+/*
+1. Posicionamiento = Position Fix, relative .... todo ese tipo de detalle que me ayuada a pocisonaren el layaut todo tipo de elemnto.
+2. Modelo de caja (Box model) = es la parte del margin padding, el tamaño el width y el height.
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+:root {
+    /* colores */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}

@@ -166,6 +166,9 @@ main {
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
 }
+.main-currency-table .currency-table--title--color {
+    color: var(--secondary-blue);
+}
 
 .currency-table--container {
     width: 90%;
@@ -217,4 +220,25 @@ main {
 }
 .currency-table--container .down--icon {
     background-image: url(./assets/icons/trending-up.svg);
+}
+
+.currency-table--date {
+    width: 195px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+
+.currency-table--date--color {
+    background-color: var(--soft-blue);
+}
+
+.currency-table--date p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
 }

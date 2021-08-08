@@ -399,3 +399,53 @@ main {
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
+.recomendado {
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    padding: 8px;
+    top: -15px;
+    left: calc(50% - 50px);
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
+.plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+
+.plan-card--price {
+    padding: 5px 0;
+    font-family: Inter;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 7rem;
+    letter-spacing: -0.08em;
+    color: black;
+}
+
+.plan-card--price span {
+    position: absolute;
+    left: calc(50% - 8px/2 - 40px);
+    top: 37px;
+    width: 8px;
+    height: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #363636;
+}
+
+.plan-card--saving {
+    font-family: Inter;
+    font-size: 1.2rem;
+    color: #757575;
+}

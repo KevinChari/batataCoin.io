@@ -415,6 +415,15 @@ main {
     color: var(--just-white);
 }
 
+.plans-container--card .basico {
+    background-color: var(--secondary-blue);
+}
+
+.plans-container--card .premium {
+    background-color: rgb(235 38 85);
+    color: black;
+}
+
 .plan-card--title {
     padding-top: 30px;
     font-size: 1.4rem;
@@ -429,7 +438,7 @@ main {
     font-size: 5.2rem;
     font-weight: bold;
     line-height: 7rem;
-    letter-spacing: -0.08em;
+    letter-spacing: -0.03em;
     color: black;
 }
 
@@ -442,6 +451,10 @@ main {
     font-size: 1.2rem;
     font-weight: 500;
     color: #363636;
+}
+
+.plan__card-price--space span {
+    left: calc(50% - 8px/2 - 53px);   
 }
 
 .plan-card--saving {
@@ -462,6 +475,14 @@ main {
     font-weight: bold;
     line-height: 1.8rem;
     color: var(--black);
+}
+
+.plan-card--color1 {
+    border: 2px solid var(--secondary-blue); 
+}
+
+.plan-card--color2 {
+    border: 2px solid rgb(235 38 85);
 }
 
 .plan-card--ca span {

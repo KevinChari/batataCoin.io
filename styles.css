@@ -14,7 +14,7 @@
     --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
     --black: #282623;
-    --grey: #BABABA;
+    --grey: #696969;
     --off-white: #FAF8F7;
     --just-white: #ffffff;
 }
@@ -147,7 +147,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: #757575;
+    color: #4e4e4e;
 }
 
 .main-tables-container{
@@ -170,12 +170,12 @@ main {
 
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
 }
-.main-currency-table .currency-table--title--color {
+.main-currency-table .title--color {
     color: var(--secondary-blue);
 }
 
@@ -289,10 +289,10 @@ main {
 
 .product-detail--title p {
     margin-bottom: 20px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: #c5c5c5;
 }
 
 .product-detail--card {
@@ -342,7 +342,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: #bdbdbd;
 }
 
 .bitcoin-img-container {
@@ -425,7 +425,7 @@ main {
     top: -15px;
     left: calc(50% - 60px);
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.5rem;
     background-color: var(--bitcoin-orange);
